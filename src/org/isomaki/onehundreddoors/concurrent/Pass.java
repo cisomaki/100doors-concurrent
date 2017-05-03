@@ -15,7 +15,6 @@ public class Pass implements Runnable {
     @Override
     public void run() {
         int i = passNumber;
-//        System.out.println("Running pass number: " + passNumber);
         BitSet doors = new BitSet();
         while (i < numberOfDoors) {
             doors.set(i, true);
